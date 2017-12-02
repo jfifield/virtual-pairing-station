@@ -4,7 +4,7 @@
 
 apt-get -y install xubuntu-desktop tightvncserver
 
-/usr/sbin/useradd -m -G sudo developer
+/usr/sbin/useradd -s /bin/bash -m -G sudo developer
 echo developer:dev | chpasswd
 
 mkdir -p /home/developer/.vnc/
