@@ -2,3 +2,4 @@
 xrdb $HOME/.Xresources
 xsetroot -solid grey
 startxfce4 &
+autocutsel -s CLIPBOARD -fork

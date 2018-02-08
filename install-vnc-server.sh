@@ -2,7 +2,7 @@
 
 # Based on instructions at https://www.digitalocean.com/community/tutorials/how-to-setup-vnc-for-ubuntu-12
 
-apt-get -y install xubuntu-desktop tightvncserver
+apt-get -y install xubuntu-desktop tightvncserver autocutsel
 
 /usr/sbin/useradd -s /bin/bash -m -G sudo developer
 echo developer:dev | chpasswd
